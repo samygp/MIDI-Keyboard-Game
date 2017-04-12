@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BF008C9C-9D9E-3D53-4A4D-AE4B106DDC88}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.2.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_2_2;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_2_2;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="policy.2.0.taglib-sharp">
+      <HintPath>Assets\Scripts\taglib\Libraries\policy.2.0.taglib-sharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\BeatCountingStuff\BeatCounter.cs" />
+    <Compile Include="Assets\Scripts\BeatCountingStuff\BeatObserver.cs" />
+    <Compile Include="Assets\Scripts\BeatCountingStuff\BeatSynchronizer.cs" />
+    <Compile Include="Assets\Scripts\BeatCountingStuff\PatternCounter.cs" />
+    <Compile Include="Assets\Scripts\BeatCountingStuff\SynchronizerData.cs" />
+    <Compile Include="Assets\Scripts\CloudBehavior.cs" />
+    <Compile Include="Assets\Scripts\DestroyOnContact.cs" />
+    <Compile Include="Assets\Scripts\DropletActions.cs" />
+    <Compile Include="Assets\Scripts\GracePeriodUpdater.cs" />
+    <Compile Include="Assets\Scripts\InputBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Level.cs" />
+    <Compile Include="Assets\Scripts\MidiJack\Midi.cs" />
+    <Compile Include="Assets\Scripts\MidiJack\MidiDriver.cs" />
+    <Compile Include="Assets\Scripts\MidiJack\MidiMaster.cs" />
+    <Compile Include="Assets\Scripts\PlayingAlgorithm.cs" />
+    <Compile Include="Assets\Scripts\SpawnClouds.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Aac\AudioHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Aac\BitStream.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Aac\File.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Aiff\File.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Aiff\StreamHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ape\File.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ape\Footer.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ape\Item.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ape\StreamHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ape\Tag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\ContentDescriptionObject.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\ContentDescriptor.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\DescriptionRecord.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\ExtendedContentDescriptionObject.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\File.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\FilePropertiesObject.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\Guid.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\HeaderExtensionObject.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\HeaderObject.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\MetadataLibraryObject.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\Object.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\PaddingObject.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\StreamPropertiesObject.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\Tag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Asf\UnknownObject.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\ByteVector.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\ByteVectorList.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\CombinedTag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\CorruptFileException.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\File.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\FileTypes.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Flac\Block.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Flac\BlockHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Flac\File.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Flac\Picture.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Flac\StreamHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Genres.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\ICodec.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v1\StringHandler.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v1\Tag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\ExtendedHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Footer.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\FrameFactory.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\FrameHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\FrameTypes.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\AttachedPictureFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\CommentsFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\GeneralEncapsulatedObjectFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\MusicCdIdentifierFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\PlayCountFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\PopularimeterFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\PrivateFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\RelativeVolumeFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\SynchronizedLyricsFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\TermsOfUseFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\TextIdentificationFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\UniqueFileIdentifierFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\UnknownFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Frames\UnsynchronisedLyricsFrame.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Header.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\SynchData.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Id3v2\Tag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\ListBase.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpc\File.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpc\StreamHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg\AudioFile.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg\AudioHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg\File.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg\VBRIHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg\VideoHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg\XingHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\AppleTag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Box.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\BoxFactory.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\BoxHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\BoxTypes.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\AppleAdditionalInfoBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\AppleAnnotationBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\AppleDataBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\AppleElementaryStreamDescriptor.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\AppleItemListBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\FullBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\IsoAudioSampleEntry.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\IsoChunkLargeOffsetBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\IsoChunkOffsetBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\IsoFreeSpaceBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\IsoHandlerBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\IsoMetaBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\IsoMovieHeaderBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\IsoSampleDescriptionBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\IsoSampleEntry.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\IsoSampleTableBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\IsoUserDataBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\IsoVisualSampleEntry.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\Boxes\UnknownBox.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\File.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Mpeg4\FileParser.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\NonContainer\EndTag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\NonContainer\File.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\NonContainer\StartTag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\NonContainer\Tag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ogg\Bitstream.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ogg\Codec.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ogg\Codecs\Theora.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ogg\Codecs\Vorbis.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ogg\File.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ogg\GroupedComment.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ogg\Page.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ogg\PageHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ogg\Paginator.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Ogg\XiphComment.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Picture.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Properties.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\ReadOnlyByteVector.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Riff\AviHeaderList.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Riff\AviStream.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Riff\BitmapInfoHeader.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Riff\DivXTag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Riff\File.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Riff\InfoTag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Riff\List.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Riff\ListTag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Riff\MovieIdTag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Riff\WaveFormatEx.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\StringList.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\SupportedMimeType.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\Tag.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\UnsupportedFormatException.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\WavPack\File.cs" />
+    <Compile Include="Assets\Scripts\taglib\src\TagLib\WavPack\StreamHeader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Resources\Levels\test.txt" />
+    <None Include="Assets\Scripts\taglib\COPYING.txt" />
+    <None Include="Assets\Scripts\taglib\ChangeLog.txt" />
+    <None Include="Assets\Scripts\taglib\NEWS.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

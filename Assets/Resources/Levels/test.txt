@@ -1,0 +1,15 @@
+Cblues
+cortito
+SkySprite
+3;3;25
+4;4;35
+___
+Los archivos estarán arreglados de la siguiente manera para ser leídos por el cargador de niveles en el objeto Sky:
+Línea 1: Tonalidad
+Línea 2: pista de fondo
+Línea 3: Imagen de fondo
+Línea 4: nubes en el nivel, tienen que ser máximo 3, una de cada tipo, solamente la nube de notas individuales es repetible.
+Después de esta línea se escriben los desciptores de las nubes, con los parámetros separados por punto y coma, las cuales contendrán
+ como primer parámetro el registro/octava, el segundo parámetro es el máximo número de gotas que puede generar
+ y como tercer parámetro sus puntos de vida (las gotas que deben ser destruidas para acabar con la nube).
+ registro; máximo número de gotas; lifePoints
